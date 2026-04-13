@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header class="country-header">
+    <h2>🌍 Where in the world?</h2>
+
+    <select class="site-bg">
+        <option value="" selected disabled hidden>Theme</option>
+        <option value="white">☀️ Light</option>
+        <option value="black">🌙 Dark</option>
+    </select>
+</header>
+
+<div class="filter-box">
+    <div class="search-box">
+        <input class="search-name_inp" type="text" placeholder="🔍 Search country...">
+        <button class="search-btn">Search</button>
+    </div>
+
+    <select class="filter-region">
+        <option value="" selected disabled hidden>🌎 Filter by region</option>
+        <option value="asia">Asia</option>
+        <option value="europe">Europe</option>
+        <option value="africa">Africa</option>
+        <option value="australia">Australia</option>
+        <option value="americas">Americas</option>
+        <option value="all">All</option>
+    </select>
+</div>
+
+<ul class="country-list"></ul>
+
+<script src="./index.js"></script>
+</body>
+</html>
